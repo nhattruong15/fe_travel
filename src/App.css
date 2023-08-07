@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  margin: auto !important;
+  padding: auto !important;
+  line-height: 1.5;
 }
 
 .App-logo {
@@ -35,4 +37,212 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#container {
+  color: #0b2727;
+  color: var(--heading-color);
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav {
+  vertical-align: middle; /* Căn giữa dọc */
+  line-height: 1; /* Loại bỏ khoảng cách dòng dư thừa */
+}
+
+.section_subtitle {
+  background: #faa935;
+  border-radius: 50px;
+  color: #0b2727;
+  color: var(--heading-color);
+  font-family: Island Moments, cursive;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0 1rem 0 0.5rem;
+  width: -webkit-max-content;
+  width: max-content;
+}
+.section1_subtitle {
+  background: #faa935;
+  border-radius: 50px;
+  color: #0b2727;
+  color: var(--heading-color);
+  font-family: Island Moments, cursive;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0 1rem 0 0.5rem;
+  width: -webkit-max-content;
+  width: max-content;
+}
+h1 span {
+  color: rgb(200, 200, 84) !important;
+}
+.hero_content p {
+  color: #6e7074;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.hero_imgbox img {
+  border: 1px solid #faa935;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+.search_bar {
+  box-shadow: 0 48px 100px 0 rgba(17, 12, 46, 0.15);
+  padding: 0.5rem 1rem;
+  width: -webkit-max-content;
+  width: max-content;
+}
+.form__group input {
+  border: none !important;
+}
+.service_subtitle,
+.service_title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.service_subtitle {
+  color: #ee6e6e;
+  font-family: Island Moments, cursive;
+  font-family: var(--subtitle-font-name);
+}
+.service_item {
+  border-bottom: 1px solid #faa83586;
+  border-radius: 0.5rem;
+  border-right: 1px solid #faa83586;
+  padding: 1rem;
+}
+.service_img {
+  align-items: center;
+  background: orange !important;
+  border-radius: 50px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  line-height: 50px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 50px;
+}
+.service_img img {
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .search_bar {
+    width: 100%;
+    border-radius: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+.featured__tour-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.section__subtitle {
+  background: #faa935;
+  border-radius: 50px;
+  color: #0b2727;
+  color: var(--heading-color);
+  font-family: Island Moments, cursive;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0 1rem 0 0.5rem;
+  width: -webkit-max-content;
+  width: max-content;
+}
+.experience__content p {
+  color: #6e7074;
+
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.counter__box span {
+  align-items: center;
+  background: #ff7e01;
+  border-radius: 10px 5px 10px 5px;
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 70px;
+  justify-content: center;
+  margin: auto;
+  width: 70px;
+}
+.counter__box h6 {
+  color: #6e7074;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.row-gallery {
+  display: flex;
+  flex-direction: row;
+  place-content: stretch center;
+  box-sizing: border-box;
+  width: 100%;
+  gap: 1rem;
+}
+.col-gallery {
+  display: flex;
+  flex-direction: column;
+  place-content: stretch flex-start;
+  flex: 1 1 0%;
+  width: 0px;
+  gap: 1rem;
+}
+Card.Text {
+  font-weight: 300;
+}
+#img_gallery img {
+  border-radius: 10px !important;
+}
+#img_gallery #div-child {
+  flex: "1 1 0%";
+}
+.tour_section {
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(./img/tour.4aa39fc95609710b19aa.jpg) no-repeat 50%;
+  background-size: cover;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+}
+.booking__btn {
+  background-color: #faa935 !important;
+  border: none;
+  border-radius: 14px 0 14px 0;
+  cursor: pointer;
+  font-style: italic;
+  padding: 0.6rem;
+  transition: 0.5s;
+}
+.tour__img {
+  position: relative;
+}
+.tour__img span {
+  background: #faa935 !important;
+  border-radius: 3px 0 0 0;
+  bottom: 0;
+  color: #fff;
+  height: -webkit-max-content;
+  height: max-content;
+  padding: 0.1rem 0.3rem;
+  position: absolute;
+  right: 0;
+  width: -webkit-max-content;
+  width: max-content;
+  z-index: 10;
 }
